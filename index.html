@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Humburger resposive</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header>
+      <!-- Header for mobile view -->
+      <div class="mobile">
+        <div class="header">
+          <div class="logo">
+            <img src="images/logo.png" alt="Logo Order UK" />
+          </div>
+          <div class="btn-more">
+            <button id="btnmore">
+              <span class="material-symbols-outlined">menu</span>
+            </button>
+          </div>
+        </div>
+        <nav id="links" class="links">
+          <a href="#">Home</a>
+          <a href="#">Special Offers</a>
+          <a href="#">Restaurants</a>
+          <a href="#">Track Order</a>
+          <a href="#">Login/Signup</a>
+        </nav>
+      </div>
+      <!-- header for tablet view -->
+      <div class="tablet">
+        <div class="header">
+          <div class="logo">
+            <img src="images/logo.png" />
+          </div>
+          <nav class="navi-first">
+            <a>Home</a>
+            <a>Special Offers</a>
+            <div class="c-restaurants">
+              <a>Restaurants</a>
+            </div>
+          </nav>
+        </div>
+        <div class="navi-second-mini">
+          <a href="#" class="more">More</a>
+          <div class="submenu">
+            <a href="#">Track Order</a>
+            <a href="#">Login/Signup</a>
+          </div>
+        </div>
+      </div>
+      <!-- header for desktop view -->
+      <div class="desktop">
+        <div class="header-desktop">
+          <div class="logo-desktop">
+            <img src="images/logo.png" />
+          </div>
+          <nav class="navigador-desktop">
+            <a href="#">Home</a>
+            <a href="#">Special Offers</a>
+            <div class="card-restaurants">
+              <a href="#">Restaurants</a>
+            </div>
+            <a href="#">Track Oder</a>
+            <div class="btn-login">
+              <a href="#">Login/signup</a>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <section>
+      <!-- section of presentation for mobile view -->
+      <div class="section-mobile">
+        <div class="c-title">
+          <h1>McDonald's East London</h1>
+        </div>
+        <div class="c-presentation">
+          <div>
+            <img
+              class="img-burger"
+              src="images/hamburguer.png"
+              alt="presentation image"
+            />
+            <img src="images/rating.png" class="img-rating" alt="rating" />
+            <h2>I'm lovin' it!</h2>
+          </div>
+        </div>
+        <div class="c-cards">
+          <div class="c-card-minimum">
+            <img src="icons/icon-list.png" alt="list icon" />
+            <p>Minimum Order: 12GBP</p>
+          </div>
+          <div class="c-card-delivery">
+            <img src="icons/icon-mot.png" alt="motorcycle icon" />
+            <p>Delivery in 20-25 Minutes</p>
+          </div>
+        </div>
+        <div class="c-schedule">
+          <div class="c-card-schedule">
+            <img src="icons/icon-reloj.png" alt="schedule icon" />
+            <p>Open until 3:00 AM</p>
+          </div>
+        </div>
+        <div class="c-titleOffers">
+          <h2>All our offers</h2>
+        </div>
+      </div>
+      <!-- section of presentation for tablet view -->
+      <div class="section-tablet">
+        <div class="presentation">
+          <div class="banner-presentation">
+            <div class="banner-left">
+              <p class="slogan">I'm lovin' it!</p>
+              <h2 class="title">McDonald's East London</h2>
+              <div class="cards">
+                <div class="card-minimum">
+                  <img src="icons/icon-list.png" alt="list icon" />
+                  <p>Minimum Order: 12GBP</p>
+                </div>
+                <div class="card-delivery">
+                  <img src="icons/icon-mot.png" alt="moto icon" />
+                  <p>Delivery in 20-25 Minutes</p>
+                </div>
+              </div>
+            </div>
+            <div class="banner-right">
+              <div>
+                <img
+                  class="image-hamburger"
+                  src="images/hamburguer.png"
+                  alt="hamburguer of presentation"
+                />
+              </div>
+              <img
+                class="image-rating"
+                src="images/rating.png"
+                alt="rating de viewers"
+              />
+            </div>
+          </div>
+          <div class="card-schedule">
+            <img src="icons/icon-reloj.png" alt="reloj icon" />
+            <p>Open until 3:00 AM</p>
+          </div>
+        </div>
+        <div class="c-titleOffers">
+          <h2>All offers from McDonald's East London</h2>
+          <form class="search-box">
+            <button type="submit">
+              <img src="./icons/icon-lupa.png" />
+              <input type="search" placeholder="Search from menu..." />
+            </button>
+          </form>
+        </div>
+      </div>
+      <!-- section of presentation for desktop view -->
+      <div class="section-desktop">
+        <div class="presentation-dk">
+          <div class="banner-presentation-dk">
+            <div class="banner-left-dk">
+              <p class="slogan">I'm lovin' it!</p>
+              <h2 class="title">McDonald's East London</h2>
+              <div class="cards">
+                <div class="card-minimum-dk">
+                  <img src="icons/icon-list.png" alt="list icon" />
+                  <p>Minimum Order: 12GBP</p>
+                </div>
+                <div class="card-delivery-dk">
+                  <img src="icons/icon-mot.png" alt="moto icon" />
+                  <p>Delivery in 20-25 Minutes</p>
+                </div>
+              </div>
+            </div>
+            <div class="banner-right-dk">
+              <div>
+                <img
+                  class="image-hamburger"
+                  src="images/hamburguer.png"
+                  alt="hamburguer of presentation"
+                />
+              </div>
+              <img
+                class="image-rating"
+                src="images/rating.png"
+                alt="rating de viewers"
+              />
+            </div>
+          </div>
+          <div class="card-schedule-dk">
+            <img src="icons/icon-reloj.png" alt="reloj icon" />
+            <p>Open until 3:00 AM</p>
+          </div>
+        </div>
+        <div class="c-titleOffers-dk">
+          <h2>All offers from McDonald's East London</h2>
+          <form class="search-box-dk">
+            <button type="submit">
+              <img src="./icons/icon-lupa.png" />
+              <input type="search" placeholder="Search from menu..." />
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <!-- offers article for mobile view -->
+      <article class="article-offers-mobile">
+        <div>
+          <img src="images/discount1.png" alt="Discount on first order" />
+          <p class="p-offer">McDonald's East London</p>
+          <h2>First Order Discount</h2>
+          <div class="discount">
+            <p>-20%</p>
+          </div>
+        </div>
+
+        <div>
+          <img src="images/discount2.png" alt="Vegan discount" />
+          <p class="p-offer">McDonald's East London</p>
+          <h2>Vegan Discount</h2>
+          <div class="discount">
+            <p>-20%</p>
+          </div>
+        </div>
+
+        <div>
+          <img src="images/discount3.png" alt="Free ice cream offer" />
+          <p class="p-offer">McDonald's East London</p>
+          <h2>Free ice Cream Offer</h2>
+          <div class="discount">
+            <p>-100%</p>
+          </div>
+        </div>
+      </article>
+      <!-- offers article for tablet view -->
+      <article class="article-offers-tablet">
+        <nav class="navigator-offers">
+          <div>
+            <a href="#">Offers</a>
+          </div>
+          <a href="#">Burgers</a>
+          <a href="#">Fries</a>
+          <a href="#">Snacks</a>
+          <a href="#">Salads</a>
+          <a href="#">Cold drinks</a>
+          <a href="#">Happy Meal</a>
+          <a href="#">Desserts</a>
+          <a href="#">Hot drinks</a>
+          <a href="#">Sauces</a>
+          <a href="#">Orbit</a>
+        </nav>
+        <section class="section-offers">
+          <div class="cards-offers">
+            <div class="c-offer">
+              <img src="images/discount1.png" alt=" First Order Discount" />
+              <div class="c-discount">
+                <div>
+                  <p>-20%</p>
+                </div>
+              </div>
+              <p class="title">McDonald's East London</p>
+              <h3>First Order Discount</h3>
+            </div>
+
+            <div class="c-offer">
+              <img src="images/discount2.png" alt=" Vegan Discount" />
+              <div class="c-discount">
+                <div>
+                  <p>-20%</p>
+                </div>
+              </div>
+              <p class="title">McDonald's East London</p>
+              <h3>Vegan Discount</h3>
+            </div>
+
+            <div class="c-offer">
+              <img src="images/discount3.png" alt="Free ice Cream Offer" />
+              <div class="c-discount">
+                <div>
+                  <p>-100%</p>
+                </div>
+              </div>
+              <p class="title">McDonald's East London</p>
+              <h3>Free ice Cream Offer</h3>
+            </div>
+          </div>
+        </section>
+      </article>
+      <!-- offers article for desktop view -->
+      <article class="article-offers-desktop">
+        <nav class="navigator-offers-dk">
+          <div>
+            <a href="#">Offers</a>
+          </div>
+          <a href="#">Burgers</a>
+          <a href="#">Fries</a>
+          <a href="#">Snacks</a>
+          <a href="#">Salads</a>
+          <a href="#">Cold drinks</a>
+          <a href="#">Happy Meal</a>
+          <a href="#">Desserts</a>
+          <a href="#">Hot drinks</a>
+          <a href="#">Sauces</a>
+          <a href="#">Orbit</a>
+        </nav>
+        <section class="section-offers-dk">
+          <div class="cards-offers-dk">
+            <div class="c-offer-dk">
+              <img src="images/discount1.png" alt=" First Order Discount" />
+              <div class="c-discount-dk">
+                <div>
+                  <p>-20%</p>
+                </div>
+              </div>
+              <p class="title-dk">McDonald's East London</p>
+              <h3>First Order Discount</h3>
+            </div>
+
+            <div class="c-offer-dk">
+              <img src="images/discount2.png" alt=" Vegan Discount" />
+              <div class="c-discount-dk">
+                <div>
+                  <p>-20%</p>
+                </div>
+              </div>
+              <p class="title-dk">McDonald's East London</p>
+              <h3>Vegan Discount</h3>
+            </div>
+
+            <div class="c-offer-dk">
+              <img src="images/discount3.png" alt="Free ice Cream Offer" />
+              <div class="c-discount-dk">
+                <div>
+                  <p>-100%</p>
+                </div>
+              </div>
+              <p class="title-dk">McDonald's East London</p>
+              <h3>Free ice Cream Offer</h3>
+            </div>
+          </div>
+        </section>
+      </article>
+    </section>
+    <main>
+      <!-- Burgers section for mobile view -->
+      <div class="section-burgers-mobile">
+        <div class="burgers-title">
+          <h2>Burgers</h2>
+        </div>
+        <article>
+          <div class="banner-burger">
+            <img
+              class="banner-image-burger"
+              src="burgers/burguer1.png"
+              alt="Royal Cheese burger"
+            />
+            <div class="banner-down">
+              <h3 class="burger-minititle">
+                Royal Cheese Burger with extra Fries
+              </h3>
+              <p>1 McChicken, 1 Big Mac, 1 Royal Cheeseburger, 3 medium</p>
+              <div class="banner-price">
+                <h3>GBP 23.10</h3>
+                <div>
+                  <img src="icons/icon-añadir.png" alt="Add to purchase" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="banner-burger">
+            <img
+              class="banner-image-burger"
+              src="burgers/burger2.png"
+              alt="Royal Cheese burger"
+            />
+            <div class="banner-down">
+              <h3 class="burger-minititle">The classics for 3</h3>
+              <p>
+                1 McChicken, 1 Big Mac, 1 Royal Cheeseburger, 3 medium sized
+                French Fries, 3 cold drinks
+              </p>
+              <div class="banner-price">
+                <h3>GBP 23.10</h3>
+                <div>
+                  <img src="icons/icon-añadir.png" alt="Add to purchase" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="banner-burger">
+            <img
+              class="banner-image-burger"
+              src="burgers/burger3.png"
+              alt="Royal Cheese burger"
+            />
+            <div class="banner-down">
+              <h3 class="burger-minititle">The classics for 3</h3>
+              <p>
+                1 McChicken, 1 Big Mac, 1 Royal Cheeseburger, 3 medium sized
+                French Fries, 3 cold drinks
+              </p>
+              <div class="banner-price">
+                <h3>GBP 23.10</h3>
+                <div>
+                  <img src="icons/icon-añadir.png" alt="Add to purchase" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="banner-burger">
+            <img
+              class="banner-image-burger"
+              src="burgers/burger4.png"
+              alt="Royal Cheese burger"
+            />
+            <div class="banner-down">
+              <h3 class="burger-minititle">The classics for 3</h3>
+              <p>
+                1 McChicken, 1 Big Mac, 1 Royal Cheeseburger, 3 medium sized
+                French Fries, 3 cold drinks
+              </p>
+              <div class="banner-price">
+                <h3>GBP 23.10</h3>
+                <div>
+                  <img src="icons/icon-añadir.png" alt="Add to purchase" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="banner-burger">
+            <img
+              class="banner-image-burger"
+              src="burgers/burger5.png"
+              alt="Royal Cheese burger"
+            />
+            <div class="banner-down">
+              <h3 class="burger-minititle">The classics for 3</h3>
+              <p>
+                1 McChicken, 1 Big Mac, 1 Royal Cheeseburger, 3 medium sized
+                French Fries, 3 cold drinks
+              </p>
+              <div class="banner-price">
+                <h3>GBP 23.10</h3>
+                <div>
+                  <img src="icons/icon-añadir.png" alt="Add to purchase" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="banner-burger">
+            <img
+              class="banner-image-burger"
+              src="burgers/burger6.png"
+              alt="Royal Cheese burger"
+            />
+            <div class="banner-down">
+              <h3 class="burger-minititle">The classics for 3</h3>
+              <p>
+                1 McChicken, 1 Big Mac, 1 Royal Cheeseburger, 3 medium sized
+                French Fries, 3 cold drinks
+              </p>
+              <div class="banner-price">
+                <h3>GBP 23.10</h3>
+                <div>
+                  <img src="icons/icon-añadir.png" alt="Add to purchase" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <!-- Burgers section for tablet view -->
+      <div class="section-burgers-tablet">
+        <div class="burgers-title">
+          <h2>Burgers</h2>
+        </div>
+        <article>
+          <div class="banner-burger">
+            <img
+              class="banner-image-burger"
+              src="burgers/burguer1.png"
+              alt="Royal Cheese burger"
+            />
+            <div class="banner-down">
+              <h3 class="burger-minititle">
+                Royal Cheese Burger with extra Fries
+              </h3>
+              <p>1 McChicken, 1 Big Mac, 1 Royal Cheeseburger, 3 medium</p>
+              <div class="banner-price">
+                <h3>GBP 23.10</h3>
+                <div>
+                  <img src="icons/icon-añadir.png" alt="Add to purchase" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="banner-burger">
+            <img
+              class="banner-image-burger"
+              src="burgers/burger2.png"
+              alt="Royal Cheese burger"
+            />
+            <div class="banner-down">
+              <h3 class="burger-minititle">The classics for 3</h3>
+              <p>
+                1 McChicken, 1 Big Mac, 1 Royal Cheeseburger, 3 medium sized
+                French Fries, 3 cold drinks
+              </p>
+              <div class="banner-price">
+                <h3>GBP 23.10</h3>
+                <div>
+                  <img src="icons/icon-añadir.png" alt="Add to purchase" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="banner-burger">
+            <img
+              class="banner-image-burger"
+              src="burgers/burger3.png"
+              alt="Royal Cheese burger"
+            />
+            <div class="banner-down">
+              <h3 class="burger-minititle">The classics for 3</h3>
+              <p>
+                1 McChicken, 1 Big Mac, 1 Royal Cheeseburger, 3 medium sized
+                French Fries, 3 cold drinks
+              </p>
+              <div class="banner-price">
+                <h3>GBP 23.10</h3>
+                <div>
+                  <img src="icons/icon-añadir.png" alt="Add to purchase" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="banner-burger">
+            <img
+              class="banner-image-burger"
+              src="burgers/burger4.png"
+              alt="Royal Cheese burger"
+            />
+            <div class="banner-down">
+              <h3 class="burger-minititle">The classics for 3</h3>
+              <p>
+                1 McChicken, 1 Big Mac, 1 Royal Cheeseburger, 3 medium sized
+                French Fries, 3 cold drinks
+              </p>
+              <div class="banner-price">
+                <h3>GBP 23.10</h3>
+                <div>
+                  <img src="icons/icon-añadir.png" alt="Add to purchase" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="banner-burger">
+            <img
+              class="banner-image-burger"
+              src="burgers/burger5.png"
+              alt="Royal Cheese burger"
+            />
+            <div class="banner-down">
+              <h3 class="burger-minititle">The classics for 3</h3>
+              <p>
+                1 McChicken, 1 Big Mac, 1 Royal Cheeseburger, 3 medium sized
+                French Fries, 3 cold drinks
+              </p>
+              <div class="banner-price">
+                <h3>GBP 23.10</h3>
+                <div>
+                  <img src="icons/icon-añadir.png" alt="Add to purchase" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="banner-burger">
+            <img
+              class="banner-image-burger"
+              src="burgers/burger6.png"
+              alt="Royal Cheese burger"
+            />
+            <div class="banner-down">
+              <h3 class="burger-minititle">The classics for 3</h3>
+              <p>
+                1 McChicken, 1 Big Mac, 1 Royal Cheeseburger, 3 medium sized
+                French Fries, 3 cold drinks
+              </p>
+              <div class="banner-price">
+                <h3>GBP 23.10</h3>
+                <div>
+                  <img src="icons/icon-añadir.png" alt="Add to purchase" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <!-- Burgers section for desktop view -->
+      <div class="section-burgers-desktop">
+        <div class="burgers-title-dk">
+          <h2>Burgers</h2>
+        </div>
+        <article>
+          <div class="banner-burger-dk">
+            <img
+              class="banner-image-burger-dk"
+              src="burgers/burguer1.png"
+              alt="Royal Cheese burger"
+            />
+            <div class="banner-down-dk">
+              <h3 class="burger-minititle-dk">
+                Royal Cheese Burger with extra Fries
+              </h3>
+              <p>1 McChicken, 1 Big Mac, 1 Royal Cheeseburger, 3 medium</p>
+              <div class="banner-price-dk">
+                <h3>GBP 23.10</h3>
+                <div>
+                  <img src="icons/icon-añadir.png" alt="Add to purchase" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="banner-burger-dk">
+            <img
+              class="banner-image-burger-dk"
+              src="burgers/burger2.png"
+              alt="Royal Cheese burger"
+            />
+            <div class="banner-down-dk">
+              <h3 class="burger-minititle-dk">The classics for 3</h3>
+              <p>
+                1 McChicken, 1 Big Mac, 1 Royal Cheeseburger, 3 medium sized
+                French Fries, 3 cold drinks
+              </p>
+              <div class="banner-price-dk">
+                <h3>GBP 23.10</h3>
+                <div>
+                  <img src="icons/icon-añadir.png" alt="Add to purchase" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="banner-burger-dk">
+            <img
+              class="banner-image-burger-dk"
+              src="burgers/burger3.png"
+              alt="Royal Cheese burger"
+            />
+            <div class="banner-down-dk">
+              <h3 class="burger-minititle-dk">The classics for 3</h3>
+              <p>
+                1 McChicken, 1 Big Mac, 1 Royal Cheeseburger, 3 medium sized
+                French Fries, 3 cold drinks
+              </p>
+              <div class="banner-price-dk">
+                <h3>GBP 23.10</h3>
+                <div>
+                  <img src="icons/icon-añadir.png" alt="Add to purchase" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="banner-burger-dk">
+            <img
+              class="banner-image-burger-dk"
+              src="burgers/burger4.png"
+              alt="Royal Cheese burger"
+            />
+            <div class="banner-down-dk">
+              <h3 class="burger-minititle-dk">The classics for 3</h3>
+              <p>
+                1 McChicken, 1 Big Mac, 1 Royal Cheeseburger, 3 medium sized
+                French Fries, 3 cold drinks
+              </p>
+              <div class="banner-price-dk">
+                <h3>GBP 23.10</h3>
+                <div>
+                  <img src="icons/icon-añadir.png" alt="Add to purchase" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="banner-burger-dk">
+            <img
+              class="banner-image-burger-dk"
+              src="burgers/burger5.png"
+              alt="Royal Cheese burger"
+            />
+            <div class="banner-down-dk">
+              <h3 class="burger-minititle-dk">The classics for 3</h3>
+              <p>
+                1 McChicken, 1 Big Mac, 1 Royal Cheeseburger, 3 medium sized
+                French Fries, 3 cold drinks
+              </p>
+              <div class="banner-price-dk">
+                <h3>GBP 23.10</h3>
+                <div>
+                  <img src="icons/icon-añadir.png" alt="Add to purchase" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="banner-burger-dk">
+            <img
+              class="banner-image-burger-dk"
+              src="burgers/burger6.png"
+              alt="Royal Cheese burger"
+            />
+            <div class="banner-down-dk">
+              <h3 class="burger-minititle-dk">The classics for 3</h3>
+              <p>
+                1 McChicken, 1 Big Mac, 1 Royal Cheeseburger, 3 medium sized
+                French Fries, 3 cold drinks
+              </p>
+              <div class="banner-price-dk">
+                <h3>GBP 23.10</h3>
+                <div>
+                  <img src="icons/icon-añadir.png" alt="Add to purchase" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </main>
+    <script>
+      const bMore = document.querySelector("#btnmore");
+      const links = document.querySelector("#links");
+      bMore.addEventListener("click", (e) => {
+        links.classList.toggle("collapsed");
+      });
+    </script>
+  </body>
+</html>
